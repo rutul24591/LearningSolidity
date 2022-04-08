@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "checkValue",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "loan",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Access modifiers in solidity are public, private and internal. Internal is similar to protected keyword The modifier order for a function should be: Visibility Mutability Virtual Override Custom modifiers",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"2.SimpleBankingContractToLearnInheritance/SimpleBankingContractToLearnInheritance.sol": "Regulator"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"2.SimpleBankingContractToLearnInheritance/SimpleBankingContractToLearnInheritance.sol": {
+			"keccak256": "0xa0d8a4fce30e7a33190b5c9cf1930bc226d312d1c0105a8d34414c1f5b46e605",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f152ef9f2eeeaeef38485fdc080eb50e1542f3054c197bbcc33ca71d373a5903",
+				"dweb:/ipfs/QmfRDwvTqrDWmMm7K23cVUatPQeaP9f2MJ1HjohRHZngZW"
+			]
+		}
+	},
+	"version": 1
+}
