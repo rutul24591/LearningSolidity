@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_base",
+						"type": "uint256"
+					}
+				],
+				"name": "testIncrement",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"4.LearningLibraryImports/testLibrary.sol": "TestLibrary"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"4.LearningLibraryImports/library.sol": {
+			"keccak256": "0x68ed79a2b5fb19012c92e239521ee44f453e10ea6dfa96e5409097d21a76a387",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1cc3174cbce662b7498aa5c9c4a784d7d44868b5221411c4b8b2efa1ef46ee2d",
+				"dweb:/ipfs/QmcMWtgWnXajEry8FQp5dosVXcfd4iaTJiNe33LR8jpWWu"
+			]
+		},
+		"4.LearningLibraryImports/testLibrary.sol": {
+			"keccak256": "0x639c7dcb77dc07a51975a4bc3f0975a791b234433d8179aa32eb9317f7ba7ab6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e0fe31400e5f5b8761a7f9a44b3ad24fcc809d57c0ffc677189e76a03f8d601d",
+				"dweb:/ipfs/QmQwCmWtpj1rGMbaaFhbn6oGEw9itCRUNvtWFhb7Fgwisz"
+			]
+		}
+	},
+	"version": 1
+}

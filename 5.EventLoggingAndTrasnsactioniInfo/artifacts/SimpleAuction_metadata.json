@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "bidder",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "HighestBidIncreased",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "bid",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"5.EventLoggingAndTrasnsactioniInfo/EventLogging2.sol": "SimpleAuction"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"5.EventLoggingAndTrasnsactioniInfo/EventLogging2.sol": {
+			"keccak256": "0x8ceb57f63c2b8104d3bcd40963528cfb55347c733e0c88684f9f15a6842cf078",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5c28066250b3f550e5e51d76307215e994f8999fd97cb0f459dcd179a0d77894",
+				"dweb:/ipfs/QmNMem84eWNGpFkBY191iPkTGvceCDP3D8gKtX88bobJni"
+			]
+		}
+	},
+	"version": 1
+}

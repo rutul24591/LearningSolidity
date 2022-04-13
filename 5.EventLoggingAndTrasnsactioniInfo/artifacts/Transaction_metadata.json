@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "SenderLogger",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "ValueLogger",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"5.EventLoggingAndTrasnsactioniInfo/EventLogginAndTransactionInfo.sol": "Transaction"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"5.EventLoggingAndTrasnsactioniInfo/EventLogginAndTransactionInfo.sol": {
+			"keccak256": "0x96f9a52b876477efc9b62282869b436b83b7e6fcf20f62c7846e557f75a3b032",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://dfa10da27b640d17a95c19183b0ae0721b737b6ea5e88453386664ea6bbcd779",
+				"dweb:/ipfs/QmbR1uX1Q3idiDbgPUPAan5Zg57rL6fmGUPKE48UbRYCHB"
+			]
+		}
+	},
+	"version": 1
+}

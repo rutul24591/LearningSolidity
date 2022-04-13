@@ -116,11 +116,11 @@
 	},
 	"sources": {
 		"2.SimpleBankingContractToLearnInheritance/SimpleBankingContractToLearnInheritance.sol": {
-			"keccak256": "0xa0d8a4fce30e7a33190b5c9cf1930bc226d312d1c0105a8d34414c1f5b46e605",
+			"keccak256": "0xce248bffd4d4bee6e271d70602f00687f0bfda96113a61d3f7876402bb784eee",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://f152ef9f2eeeaeef38485fdc080eb50e1542f3054c197bbcc33ca71d373a5903",
-				"dweb:/ipfs/QmfRDwvTqrDWmMm7K23cVUatPQeaP9f2MJ1HjohRHZngZW"
+				"bzz-raw://1770ace649069fcd049af623a768f7e91eb08a57b1e492004d7ae4dbd64db409",
+				"dweb:/ipfs/QmaccJ1Ma68fw8fB3daaDUgxfEfUpgSTz5wtEgxxwjJysz"
 			]
 		}
 	},

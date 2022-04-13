@@ -6,6 +6,17 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
 				"name": "balance",
 				"outputs": [
@@ -52,32 +63,6 @@
 			},
 			{
 				"inputs": [],
-				"name": "getAge",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "loan",
 				"outputs": [
 					{
@@ -87,32 +72,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "newAge",
-						"type": "uint256"
-					}
-				],
-				"name": "setAge",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "newName",
-						"type": "string"
-					}
-				],
-				"name": "setName",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -142,7 +101,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"2.SimpleBankingContractToLearnInheritance/SimpleBankingContractToLearnInheritance.sol": "NameAndAgeContract"
+			"3.SimpleBankingContractToLearnErrorHandling/SimpleBankingContractToLearnErrorHandling.sol": "Bank"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -156,12 +115,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"2.SimpleBankingContractToLearnInheritance/SimpleBankingContractToLearnInheritance.sol": {
-			"keccak256": "0xce248bffd4d4bee6e271d70602f00687f0bfda96113a61d3f7876402bb784eee",
+		"3.SimpleBankingContractToLearnErrorHandling/SimpleBankingContractToLearnErrorHandling.sol": {
+			"keccak256": "0xfe1b4791b9b1fd03b65e8d6c3ebc7bf8368bb34a2db5dcaa06a64c056d92718d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://1770ace649069fcd049af623a768f7e91eb08a57b1e492004d7ae4dbd64db409",
-				"dweb:/ipfs/QmaccJ1Ma68fw8fB3daaDUgxfEfUpgSTz5wtEgxxwjJysz"
+				"bzz-raw://0d74a8e6d9a33d3900e2c5cfd47cd7945c948dc51dd8ad6e8bd5e1a49a87dd24",
+				"dweb:/ipfs/QmYmXWbKvDPaAHZMdikS2V49DYpT9bpLDHZSnA7WBjN5uP"
 			]
 		}
 	},

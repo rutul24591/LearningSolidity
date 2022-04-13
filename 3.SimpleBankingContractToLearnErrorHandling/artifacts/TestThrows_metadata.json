@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testAssert",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testRequire",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testRevert",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"3.SimpleBankingContractToLearnErrorHandling/SimpleBankingContractToLearnErrorHandling.sol": "TestThrows"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"3.SimpleBankingContractToLearnErrorHandling/SimpleBankingContractToLearnErrorHandling.sol": {
+			"keccak256": "0xfe1b4791b9b1fd03b65e8d6c3ebc7bf8368bb34a2db5dcaa06a64c056d92718d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0d74a8e6d9a33d3900e2c5cfd47cd7945c948dc51dd8ad6e8bd5e1a49a87dd24",
+				"dweb:/ipfs/QmYmXWbKvDPaAHZMdikS2V49DYpT9bpLDHZSnA7WBjN5uP"
+			]
+		}
+	},
+	"version": 1
+}

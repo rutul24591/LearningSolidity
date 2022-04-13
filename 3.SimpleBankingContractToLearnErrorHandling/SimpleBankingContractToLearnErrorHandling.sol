@@ -96,11 +96,11 @@ contract NameAndAgeContract is Bank(10) {
     string private name;
     uint private age;
 
-    function getAge() public view returns (uint) {
+    function getAge() private view returns (uint) {
         return age;
     }
 
-    function getName() public view returns (string memory) {
+    function getName() private view returns (string memory) {
         return name;
     }
 
@@ -122,5 +122,33 @@ contract NameAndAgeContract is Bank(10) {
 
     // function checkValue(uint amount) public pure returns (bool) {
     //     return true;
+    // }
+}
+
+contract TestThrows {
+    function testAssert() public pure{
+        // assert expects a boolean value as parameter. With Assert the gas is `always` consumed(mindful for that) on the message that is sent as well.
+        // Assert is used for validating imports or functional imports at runtime, you potentially do some data manipulation, before you want to check(assert)
+        // something is something else(something == something else)
+        assert(1 == 2); 
+    }
+
+    function testRequire() public pure{
+        // Require expects a boolean value as parameter. Require uses revert on internal basis so gas cost might be removed
+        // With require the gas is always consumed on the message that is sent.
+        require(1 == 2);
+    }
+
+    function testRevert() public pure{
+        // Revert doesnt need any parameters. 
+        // Revert should revert the gas cost of message sent.
+        // For example if you doing an ICO and you run out of coins and users keep doing the transactions(which are gonna fail)
+        // then the user should not be charged gas fees and the gas fees should be reverted.
+        revert();
+    }
+
+    // Throw is an operation rather than an function. Throw does consume all the gas, errors or whatever everything is consumed
+    // function testThrow() public{
+    //     throw;
     // }
 }
